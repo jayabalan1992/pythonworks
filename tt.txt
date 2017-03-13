@@ -1,0 +1,59 @@
+JAYABALAN BALACHANDRAN                                    
+Email ID: jb9183@rit.edu							                           https://github.com/jayabalan1992000
+Contact: +1- (585)-733-9789					                                 https://www.linkedin.com/in/jayabalan-bala/   
+EDUCATION
+Rochester Institute of Technology (RIT), Rochester, NY					        Aug 2016-Present
+Master of Science -- Networking and System Administration				 	             	      GPA:3.89/4
+Relevant Courses: Advanced Oops, Advanced Large Scale Computing, Enterprise Service Provisioning, Wired and Wireless Networking, Principles of System Administration
+Anna University, Chennai, India							          		         May 2014
+Bachelors of Science -- Electronics and Communication Engineering				      	       GPA: 3.7/4
+
+TECHNICAL SKILLS:
+?	System Admin and Dev-ops - File system in Linux, Apache, Active Directory, AWS (EC2), Ansible, Docker
+?	Networking Protocols - Routing protocols (OSPF, BGP basics), DHCP, NAT, TCP, UDP, SNMP, DNS, FTP, HTTP
+?	Programming Languages - Basics of C & C++, Python, Shell scripting, YAML 
+?	Tools - Wireshark, VMware, Visio, FileZilla, Putty, Service Now, Cisco CUCM, RTMT, Git, GitHub
+?	Applications - Cisco Call manager, UCCX, MS word & Excel, VMware player, HaProxy, Omnipeek
+?	Operating Systems - Windows (7/8/10/Server 2012), Cent OS (5/6/7), Ubuntu, Cisco IOS
+
+WORK EXPERIENCE:       
+Graduate Teaching Assistant:							                       	         Jan ’17-   Present
+Rochester Institute of Technology, 							              	 Rochester, NY Train the students in Networking subject and guide them in the Routing and Switching Lab. Grading the Lab reports  
+and provide feedback. Assist professor in preparing/editing syllabus for the same course. 
+Systems Engineer: 									                       Jun ‘14 –Jun ‘16
+Tata Consultancy Services Ltd				                 			             Chennai, India        
+Project Overview: Maintenance and Upgradation of Cisco VoIP devices for 1500 BestBuy big box and mobile   
+stores across the region of North America. 
+Provided Level 2 technical support to the clients on issues related to Cisco IP phones, Call issues and Call center.
+Part of implementation team and upgraded Voice Gateway and Call Manager Server.
+Performed Change management by strictly following the ITIL process to meet the SLA’s.
+Automated routine checks such as Backups, Daily Report, System Utilization check using Python and Excel Macros.
+ACADEMIC PROJECTS:
+?	Lamp Stack Automation using ANSIBLE Implemented Lamp stack with failover cluster and deployed everything  
+       from the scratch using Ansible. Deployed Apache and MariaDB through Ansible.
+?	Immutable Infrastructure using Docker Implemented an infrastructure where the update on a running system can be   
+      done by forwarding the traffic using load balancer to the newly created container running updated version of the same   
+      image.
+?	Python Projects Developed python scripts to automate the networking task which includes SSH/Telnet configuration,   
+       simple web server, Server/client socket communication, Chat application.
+HONOURS: 
+On the Spot Award for best performer in my work place.
+Dedication award for my work during disasters and got customer appreciation.
+
+ACTIVITIES:
+Member: Audio Engineering Society (RIT), Jam Club, playing piano for more than 12 years
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+
