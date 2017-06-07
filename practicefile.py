@@ -1,5 +1,17 @@
-import time, calendar
-print(time.ctime())
-print(time.asctime(time.localtime(time.time())))
-print(time.ctime(time.time()))
-print(calendar.setfirstweekday(1))
+import socket
+s=socket.socket()
+host=socket.gethostname()
+port=12345
+s.bind((host,port))
+s.listen(5)
+while True:
+    c, addr = s.accept()
+    print "Got connection from ",addr
+    c.send('Thank you for connecting')
+    a=c.recv(1024)
+    if not a:
+        break
+    c.send(str(a))
+    print "Data set is:" +str(a)
+    c.close()
+

@@ -1,13 +1,12 @@
+import time
+import socket
+s=socket.socket()
+s.connect(("127.0.0.1",5000))
 
-import socket               # Import socket module
-
-s = socket.socket()         # Create a socket object
-host = socket.gethostname() # Get local machine name
-port = 12345                # Reserve a port for your service.
-
-s.connect((host, port))
-print s.recv(1024)
-s.send("My Name is jayabalan")
-print str(s.recv(1024))
+while True:
+    data=raw_input("Enter data: ")
+    if data=="q":
+        s.sendall("I am quitting")
+        break
+    s.send(data)
 s.close()
-

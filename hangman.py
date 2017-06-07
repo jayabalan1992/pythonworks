@@ -4,7 +4,7 @@ with open("G:\pycharm projects\dictionary.txt",'r') as dict:
 def hangman():
 
     word=random.choice(dictionary)
-    length,i=len(word),3
+    length,i=len(word),6
     ans=["_"]*length
     print(" ".join(ans))
     chances=[]
@@ -25,7 +25,7 @@ def hangman():
                 print("wrong")
                 break
         if "_" in ans:
-            pass
+
             i -= 1
         else:
             print("\nYou have won and helped the man from hanging")
