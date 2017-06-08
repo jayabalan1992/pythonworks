@@ -1,5 +1,6 @@
 import os
 from tkinter import *
+from tkinter import messagebox
 root = Tk()
 label1=Label(root,text="Host Address",fg="blue")
 label1.grid(row=0,sticky=E)
@@ -9,7 +10,7 @@ b=StringVar()
 entry1=Entry(root, textvariable=v)
 entry1.grid(row=0,column=1)
 #Getting the count
-label2=Label(root,text="count")
+label2=Label(root,text="count",fg="magenta")
 label2.grid(row=1,sticky=E)
 entry2=Entry(root,textvariable=c)
 entry2.grid(row=1,column=1)
@@ -38,11 +39,21 @@ def tracert():
     print("=" * 40)
     os.system("tracert "+s)
 
-button1=Button(root,text="PING",command=ping,fg="red")
+def nmap():
+    s=v.get()
+    messagebox.askokcancel(title="Warning",message="Use nmap responsibly! Click ok to agree")
+    os.system("nmap "+s)
+
+button1=Button(root,text="PING",command=ping,fg="red",bg='cyan')
 button1.grid(row=3,column=0)
 
-button2=Button(root,text="Traceroute",command=tracert)
+button2=Button(root,text="Traceroute",command=tracert,bg="black",fg="yellow")
 button2.grid(row=3,column=1)
 
+button2=Button(root,text="Quit",command=root.quit,bg='red',fg='yellow')
+button2.grid(columnspan=2)
+
+button3=Button(root,text="nmap",command=nmap,bg='white',fg='green')
+button3.grid(row=3,column=2)
 
 root.mainloop()
